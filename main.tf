@@ -48,7 +48,7 @@ resource "google_compute_instance" "test_instance" {
 
   # allow_stopping_for_update = true
 
-  name = "test-instance-case-62016924"
+  name = "test-instance-case-62016924-edher"
  
   # The boot disk for the VM. This is the OS drive.
   boot_disk {
