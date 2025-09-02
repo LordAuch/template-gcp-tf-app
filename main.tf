@@ -46,7 +46,7 @@ resource "google_compute_instance" "test_instance" {
   zone         = var.zone
   machine_type = "n1-standard-1"
 
-  allow_stopping_for_update = true
+  # allow_stopping_for_update = true
 
   name = "test-instance-case-62016924"
  
