@@ -13,5 +13,5 @@ variable "project_id" {
 variable "static_ip" {
   description = "The number of static IPs to create."
   type        = bool
-  default     = true
+  default     = false
 }
