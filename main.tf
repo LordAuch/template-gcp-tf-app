@@ -28,7 +28,7 @@ resource "google_compute_instance" "vm_test1" {
 }
 
 
-/*
+
 
 resource "google_compute_address" "static_ip" {
   count = var.static_ip ? 1 : 0
@@ -46,7 +46,7 @@ resource "google_compute_instance" "test_instance" {
   zone         = var.zone
   machine_type = "n1-standard-1"
 
-  allow_stopping_for_update = false
+  allow_stopping_for_update = true
 
   name = "test-instance-case-62016924-edher"
  
@@ -64,4 +64,3 @@ resource "google_compute_instance" "test_instance" {
   }
 }
 
-*/
