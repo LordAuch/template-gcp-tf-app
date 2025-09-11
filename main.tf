@@ -28,8 +28,7 @@ resource "google_compute_instance" "vm_test1" {
 }
 */
 
-
-
+/*
 resource "google_compute_address" "static_ip" {
   count = var.static_ip ? 1 : 0
 
@@ -64,3 +63,4 @@ resource "google_compute_instance" "test_instance" {
   }
 }
 
+*/
