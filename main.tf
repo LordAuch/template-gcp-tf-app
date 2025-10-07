@@ -1,5 +1,6 @@
 
 # The main resource block for creating a GCP Compute Engine instance
+/*
 resource "google_compute_instance" "vm_test1" {
   name         = "infra-vm-cross-sa"
   machine_type = "e2-medium"
@@ -26,7 +27,7 @@ resource "google_compute_instance" "vm_test1" {
   }
 
 }
-
+*/
 
 /*
 resource "google_compute_address" "static_ip" {
